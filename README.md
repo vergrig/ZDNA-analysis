@@ -15,7 +15,7 @@ Analyzing H3K9me3_ZDNA_human (commentary in Russian)
 
 <p float="left">
   <img src="https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/c97f17ea87ad33de5c881e289d12c310bf5b8c9b/img/len_hist.H3K9me9_SJSA1.ENCFF157SWY.hg38.png" width="450" />
-  <img src="https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/c97f17ea87ad33de5c881e289d12c310bf5b8c9b/img/len_hist.H3K9me9_SJSA1.ENCFF921OTR.hg38.png" width="450" /> 
+  <img src="[https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/c97f17ea87ad33de5c881e289d12c310bf5b8c9b/img/len_hist.H3K9me9_SJSA1.ENCFF921OTR.hg38.png](https://github.com/vergrig/ZDNA-analysis/blob/b9685b96d9763b3c854b21cd264da8883aa1dadd/img/len_hist.H3K9me9_SJSA1.ENCFF921OTR.hg38.png)" width="450" /> 
 </p>
 
 **Переводим координаты из hg38 в hg19**
