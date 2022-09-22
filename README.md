@@ -1,4 +1,5 @@
-# hse21_H3K9me3_ZDNA_human
+# ZDNA-analysis
+Analyzing H3K9me3_ZDNA_human (commentary in Russian) 
 
 ## Анализ пиков гистоновой метки
 
