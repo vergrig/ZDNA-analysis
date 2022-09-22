@@ -36,7 +36,7 @@ Analyzing H3K9me3_ZDNA_human (commentary in Russian)
 
 ### Отбросим outliers
 
-Я выбрал отбросить пики длиннее, чем 700, так график получается достаточно равномерным, скрипт `filter_peaks.R`. Пиков стало 31989 и 36813 соответственно.
+Мы выбрали отбросить пики длиннее, чем 700, так график получается достаточно равномерным, скрипт `filter_peaks.R`. Пиков стало 31989 и 36813 соответственно.
 
 <p float="left">
   <img src="https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/filter_peaks.H3K9me9_SJSA1.ENCFF157SWY.hg19.filtered.hist.png" width="450" />
@@ -65,8 +65,8 @@ Analyzing H3K9me3_ZDNA_human (commentary in Russian)
 `wget https://raw.githubusercontent.com/vanya-antonov/hse21_H3K4me3_ZDNA_human/main/data/DeepZ.bed`
 
 <p float="left">
-  <img src="https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/4b530216b8a1aa135b33e67c036721938bd12f10/img/len_hist.DeepZ.png" width="450" />
-  <img src="https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/4b530216b8a1aa135b33e67c036721938bd12f10/img/chip_seeker.DeepZ.plotAnnoPie.png" width="450" /> 
+  <img src="https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/len_hist.DeepZ.png" width="450" />
+  <img src="https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/chip_seeker.DeepZ.plotAnnoPie.png" width="450" /> 
 </p>
 
 ## Анализ пересечений гистоновой метки и стр-ры ДНК
@@ -77,22 +77,22 @@ Analyzing H3K9me3_ZDNA_human (commentary in Russian)
 `bedtools intersect -a DeepZ.bed -b H3K9me9_SJSA1.merge.hg19.bed > H3K9me9_SJSA1.intersect_with_DeepZ.bed`
 ![]()
 <p float="left">
-  <img src="https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/0af1b11c009fce04ac75dc00b78c1101b88395e0/img/len_hist.H3K9me9_SJSA1.intersect_with_DeepZ.png" width="450"/>
-  <img src="https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/5b862801f147237feb08c675a27a61f04a0ad24d/img/chip_seeker.H3K9me9_SJSA1.intersect_with_DeepZ.plotAnnoPie.png" width="450" /> 
+  <img src="https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/len_hist.H3K9me9_SJSA1.intersect_with_DeepZ.png" width="450"/>
+  <img src="https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/chip_seeker.H3K9me9_SJSA1.intersect_with_DeepZ.plotAnnoPie.png" width="450" /> 
 </p>
 
 
 ## Визуализируем в геномном браузере
 Визуализируем в геномном браузере исходные участки стр-ры ДНК, а также их пересечения с гистоновой меткой, сессия: http://genome.ucsc.edu/s/pvgrigorev/hse21_H3K9me3_ZDNA_human
 
-![](https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/17e866b5e230bac04da628febaef7b8c9e82266d/img/intersect1.PNG)
+![](https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/intersect1.PNG)
 `chr10:103990644-103990659`
 
-![](https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/5b862801f147237feb08c675a27a61f04a0ad24d/img/intersect2.PNG)
+![](https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/intersect2.PNG)
 `chr10:104210482-104210530`
 
 
 ## GO-анализ для полученных уникальных генов
 Ассоциируем полученные пересечения с ближайшими генами, скрипт `ChIPpeakAnno.R`
 
-![](https://github.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/blob/823094df6970cba0b3bf1ce1299ca2424530a3e7/img/pantherdb.PNG)
+![](https://github.com/vergrig/ZDNA-analysis/blob/d33a65e5ab5834ed5c394a1262152daf83768f68/img/pantherdb.PNG)
