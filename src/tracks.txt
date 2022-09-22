@@ -1,0 +1,17 @@
+track visibility=dense name="ENCFF921OTR"  description="H3K9me9_SJSA1.ENCFF921OTR.hg19.filtered.bed"
+https://raw.githubusercontent.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/main/data/H3K9me9_SJSA1.ENCFF921OTR.hg19.filtered.bed
+
+track visibility=dense name="ENCFF157SWY"  description="H3K9me9_SJSA1.ENCFF157SWY.hg19.filtered.bed"
+https://raw.githubusercontent.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/main/data/H3K9me9_SJSA1.ENCFF157SWY.hg19.filtered.bed
+
+track visibility=dense name="ChIP_merge"  color=50,50,200   description="H3K9me3_SJSA1.merge.hg19.bed"
+https://raw.githubusercontent.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/main/data/H3K9me9_SJSA1.merge.hg19.bed
+
+track visibility=dense name="DeepZ"  color=0,200,0  description="DeepZ"
+https://raw.githubusercontent.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/main/data/DeepZ.bed
+
+track visibility=dense name="intersect_with_DeepZ"  color=200,0,0  description="H3K9me9_SJSA1.intersect_with_DeepZ.bed"
+https://raw.githubusercontent.com/petrusgrigus/hse21_H3K9me3_ZDNA_human/main/data/H3K9me9_SJSA1.intersect_with_DeepZ.bed
+
+
+http://genome.ucsc.edu/s/pvgrigorev/hse21_H3K9me3_ZDNA_human
